@@ -1,0 +1,54 @@
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Registrasi Pendaftar</title>
+  </head>
+  <body>
+      <div class="tab-content">
+        <div id="registrasi" class="tab-pane fade in active">
+          <h3>Registrasi Pendaftar</h3>
+          <form id="form-registrasi">
+            <div>
+              <label for="nama">Nama:</label>
+              <input type="text" id="nama" required>
+            </div>
+            <div>
+              <label for="umur">Umur:</label>
+              <input type="number" id="umur" required>
+            </div>
+            <div>
+              <label for="uang-sangu">Uang Sangu:</label>
+              <input type="number" id="uang-sangu" required>
+            </div>
+            <button type="submit">Daftar</button>
+          </form>
+        </div>
+        <div id="list-pendaftar" class="tab-pane fade">
+          <h3>List Pendaftar</h3>
+          <table id="tabel-pendaftar">
+            <thead>
+              <tr>
+                <th>No.</th>
+                <th>Nama</th>
+                <th>Umur</th>
+                <th>Uang Sangu</th>
+              </tr>
+            </thead>
+            <tbody id="data-pendaftar">
+            </tbody>
+          </table>
+          <table id="tabel-rata-rata">
+            <thead>
+              <tr>
+                <th>Rata-Rata Umur</th>
+                <th>Rata-Rata Uang Sangu</th>
+              </tr>
+            </thead>
+            <tbody id="data-rata-rata"></tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+      <script src="index.js"></script>
+</body>
+</html>

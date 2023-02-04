@@ -1,0 +1,64 @@
+/* Form styles */
+body {
+    font-family: "Open Sans", sans-serif;
+    text-align: center;
+}
+form {
+  width: 500px;
+  margin: auto;
+  padding: 50px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-shadow: 0 0 10px #ccc;
+  text-align: center;
+}
+
+label {
+  font-weight: bold;
+  margin-top: 20px;
+  display: block;
+}
+
+input[type="text"],
+input[type="number"] {
+  width: 70%;
+  padding: 10px;
+  margin-top: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  box-shadow: 0 0 10px #ccc;
+}
+
+button{
+    width: 150px;
+    height: 50px;
+    padding: 20px 10px;
+    font-size: 16px;
+    margin: 10px;
+    border: none;
+    background-color: #0eb79e;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    text-align: center;
+}
+
+/* Table styles */
+table {
+  width: 80%;
+  margin: auto;
+  border-collapse: collapse;
+  text-align: center;
+  font-weight: bold;
+}
+
+th,
+td {
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+
+th {
+  background-color: #0eb79e;
+  color: white;
+}
